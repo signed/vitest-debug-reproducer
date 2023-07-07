@@ -1,20 +1,10 @@
 {
-  "name": "@vitest/example-test",
-  "type": "module",
+  "name": "vitest-debug-reproducer",
   "private": true,
-  "license": "MIT",
-  "main": "index.js",
   "scripts": {
-    "test": "vitest",
-    "test:ui": "vitest --ui",
-    "test:run": "vitest run"
+    "test": "vitest run"
   },
   "devDependencies": {
-    "@vitest/ui": "latest",
-    "vite": "latest",
-    "vitest": "latest"
-  },
-  "stackblitz": {
-    "startCommand": "npm run test:ui"
+    "vitest": "0.33.0"
   }
 }
